@@ -1,8 +1,10 @@
 # ajax-autocomplete
 var obj = null;
 
-obj = new AjaxAutocomplete(this);
+obj = new AjaxAutocomplete(node);
+
 obj.init();
+
 obj.search_func = some_search_func(data){};
 
 obj.get_value();
